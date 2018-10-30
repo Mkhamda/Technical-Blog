@@ -265,7 +265,7 @@ Scenario 1: You can set up a RAID system for your hard drives, but the larger dr
 Scenario 2: You should still be able to set up a 2TB Storage Space. Even though the two drives are different, They are the same size, you should have no size standardization. 
 
 ### Warm Up October 29 2018
-Browse the Windows Store for an App that you find interesting. Is there one there you didn't know you needed?
+Browse the Windows Store for an App that you find interesting. What app did you find that surpirsed you? Is there an essential app to your life missing that from the store? What is it and where can one find it?
 
-The app that I found interesting is one called Cyberduck. The application is a Browser or GUI that helps with FTP, SFTP, WebDAV, S3, BackBlaze B2, and OpenStack Swift. It is essentially a GUI application that makes file transfers from the cloud to personal computers easier. I guess this would be helpful for people who already have files stored on the cloud. The application seemed weird to me because people who use Cloud Services or have FTP servers facing the web would already know how to use the commmand line. 
+The app that I found interesting is one called Cyberduck, it cost $23.99. The application is a Browser or GUI that helps with FTP, SFTP, WebDAV, S3, BackBlaze B2, and OpenStack Swift. It is essentially a GUI application that makes file transfers from the cloud to personal computers easier. I guess this would be helpful for people who already have files stored on the cloud. The application seemed weird to me because people who use Cloud Services or have FTP servers facing the web would already know how to use the commmand line. 
 
