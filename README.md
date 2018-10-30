@@ -264,6 +264,8 @@ Serial Attached SCSI (SAS): 1 TB
 Scenario 1: You can set up a RAID system for your hard drives, but the larger drive will now be restricted to 500 GB. This is not ideal, but do have 4 drives available so you will have 2 TB available once RAID is set up. 
 Scenario 2: You should still be able to set up a 2TB Storage Space. Even though the two drives are different, They are the same size, you should have no size standardization. 
 
+### Warm Up October 29 2018
+Browse the Windows Store for an App that you find interesting. Is there one there you didn't know you needed?
 
-
+The app that I found interesting is one called Cyberduck. The application is a Browser or GUI that helps with FTP, SFTP, WebDAV, S3, BackBlaze B2, and OpenStack Swift. It is essentially a GUI application that makes file transfers from the cloud to personal computers easier. I guess this would be helpful for people who already have files stored on the cloud. The application seemed weird to me because people who use Cloud Services or have FTP servers facing the web would already know how to use the commmand line. 
 
