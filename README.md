@@ -1,6 +1,6 @@
-#CIS 141 Technical Blog
-#Michael Khamdalanikone
-###mkhamdalanikone@gmail.com
+# CIS 141 Technical Blog
+# Michael Khamdalanikone
+### mkhamdalanikone@gmail.com
 
 #### Biography
 My name is Michael Khamdalanikone and I am a CIS Networking and Security major at Sierra College. I also have an Associate's Degree in Natural Science. I currently work in Biology at a Laboratory that does pharmaceutical research. I hope to switch careers and one day become a Network Administrator. 
@@ -21,15 +21,15 @@ What version of Windows 10 would you install?  Why?
 
 ## Skill 1.1 - Prepare for Installation Requirements
 
-####Warm up - How many computers are in V-129? I believe there are about 75 computers in V-129 at the moment.
+#### Warm up - How many computers are in V-129? I believe there are about 75 computers in V-129 at the moment.
 There are 32 desktop computers in the room, but there are also personal laptops in the room. Also it is almost a
 certainty that everyone has a smart phone in their pocket, which can be considered a personal computer.
 
-####Not in class
+#### Not in class
 Determine requirements for particular features such as Hyper V, Cortana, Miracast.
 Configure upgrade readiness. distributed through Azure platform. Cloud readiness.
 
-####In class
+#### In class
 Determine hardware requirements and compatibility;
 choose between an upgrade and a clean installation;
 determine appropriate editions according to device type;
@@ -52,7 +52,7 @@ Explore links that show the tools that Microsoft provides in order to test compa
 
 ### Warm Up  Since We Last Met
 
-####Task: Research a newsworthy event related to Windows 10, Microsoft, Cybersecurity and/or Information Technology. 
+#### Task: Research a newsworthy event related to Windows 10, Microsoft, Cybersecurity and/or Information Technology. 
 
 Microsoft has thwarted a Russian attack on two U.S. Agencies. It seized the websites of suspected Russian hackers who were supporting the Russian G.R.U. The two sites hacked were the Hudson Institute and the International Republican Institute. The hackers made fake web pages designed to look like the real web pages in order to steal login information of the people who used those sites. Russia has ramped up its attempts to break into Conservative Think Tanks recently. The two think tanks targeted have been critical of President Vladmir Putin. The attempted attacks are called spear-phishing, which is a highly targeted form of phishing. Phishing is when fake web pages or login pages are created in order to get people to input their login information. This can be stopped by multi-factor authentication and making sure to only click links that you know are trusted.These most recent attacks are thought to be aimed at attacking the U.S. midterm elections of 2018. 
 
@@ -65,7 +65,7 @@ Misses- incomplete answers, Didn't Address Prompt, Spelling and punctuation.
 ** Markdown 10 - available on the the Windows Store, has live preview of what you're typing as a web page. 
 ** Atom.io is another text editor that allows packages to be installed. 
 
-####Snipping Tool
+#### Snipping Tool
 
 #Install Windows 10!
 We will perform a clean install of Windows 10 Education.
@@ -73,7 +73,7 @@ Download disk image from class files
 Using VMWare Workstation Player 14
 Installing from ISO file
  
-####Settings
+#### Settings
 + 100GB of Storage on single disk
 + 4GB of RAM
 + 4 Cores
@@ -87,57 +87,57 @@ Installing from ISO file
 5. Input Software Key 8PHVN-VYCHH-QKM76-CQM93-C37Y9
 6. Accept Agreements and continue
 
-##Skill 1.2 
-#####In what ways is the Media Creation Tool similar to the DIY USB installation?  In what ways is it different?
+## Skill 1.2 
+##### In what ways is the Media Creation Tool similar to the DIY USB installation?  In what ways is it different?
 	It is similar in that it will create a bootable ISO file on the USB drive, but different in that it is mostly automated. If you plan on customizing the installation you will have to do the DIY media creation in order to insert the correct scripts into the installation files. 
-#####Why would a user be interested in multiple partitions on a hard drive?  Use a Windows tool (GUI or CLI) to create a partition and describe the steps that you took to create multiple partitions.
+##### Why would a user be interested in multiple partitions on a hard drive?  Use a Windows tool (GUI or CLI) to create a partition and describe the steps that you took to create multiple partitions.
 	A user sometimes runs multiple operating systems from a single disk. In order to do this they will have to keep separate partitions on that disk with each operating system. They could also keep certain files on another disk altogether.
-#####The GUI tool to partition the drive is diskmgmt.msc, The CLI tool to partition is called diskpart. 
-#####Describe each step that requires "user attention" during the clean installation of Windows 10.
+##### The GUI tool to partition the drive is diskmgmt.msc, The CLI tool to partition is called diskpart. 
+##### Describe each step that requires "user attention" during the clean installation of Windows 10.
 	There are very little parts of the Windows installation that require user attention anymore. The first is language and region, next is entering the software key. Finally after accepting all the documents there is another window about information collection and privacy. There you can choose what information is shared with microsoft and how they can use it. 
 What is one Windows Feature that you chose to add after installation?  How did you add that feature?
     One feature that I added was Hyper-V, This was added through the OptionalWindowsFeatures.exe
 
 ### Warm-Up activity 9/17/2018
-####What is â€œPatch Tuesdayâ€? When did it last occur? What was included in the most recent?
+#### What is â€œPatch Tuesdayâ€? When did it last occur? What was included in the most recent?
 
     Patch Tuesday is the day that Microsoft releases updates on a regular monthly schedule. It normally occurs on the second Tuesday of every month and sometimes on the fourth Tuesday if something went horribly wrong with the previous patch(it does, fairly often). The last one occured on September 11, 2018. It covered 61 vulnerabilities 17 of which were deemed critical. Most of the updates included patches to remote code execution in Microsoft's core programs such as Internet Explorer, Microsoft Edge, Microsoft Office, and .NET Framework. The most critical code that was patched was a zero-day vulnerability that allowed people to run a program that would grant administrator privileges to whomever ran it.   A lot of Administrators will hold off on updates for a week or two because Microsoft is notorious for breaking some things when releasing their patches. 
 
 ### Skill 1.2 Blog continued 9/17/2018
-#####On Windows 8.1, install an application that may not be Windows 10 compatible.  Why do you think this application may not be compatible?
+##### On Windows 8.1, install an application that may not be Windows 10 compatible.  Why do you think this application may not be compatible?
 	I installed a copy of Winrar which is a file zipping software and VLC media player. These two programs should still be compatible because they are 64-bit programs. In theory Windows does allow for older programs to run on new machines even if they will not run properly.
-#####Create a very special text file that you would like to be included in the upgrade.  What is in the file?  Where is it located?
+##### Create a very special text file that you would like to be included in the upgrade.  What is in the file?  Where is it located?
 	The text file I created was just a simple hello world rich text file and I left it on the desktop to easily see if it will survive the upgrade process. 
-#####Describe each step that requires "user attention" during the in-place upgrade of Windows 10.
+##### Describe each step that requires "user attention" during the in-place upgrade of Windows 10.
 	Some of the things that required user input during the in-place upgrade were choosing what to keep and what to delete, reviewing the end-user agreements again, and ensuring that you have administrator privileges. 
-#####In what ways was the upgrade process similar to  the clean install process?  How did it differ?
+##### In what ways was the upgrade process similar to  the clean install process?  How did it differ?
 	This upgrade process was actually slower than a clean install because the upgrade process took the time to scan the machine and check all the programs and files already installed and ensure that the upgrade could take place. 
-#####Are there any additional folders that remain after the upgrade process is complete?  What are the contents of those folders?
+##### Are there any additional folders that remain after the upgrade process is complete?  What are the contents of those folders?
 	All the original files remained after the in place upgrade. Another folder that showed up was one called Windows.old. This folder is actually the previous version of the OS in case we want to downgrade back. If we want to keep WIndows 10 we can delete the folder to free up space. 
 
-###Skill 1.3 Blog Prompt
-#####Create a list of hardware that a user might have that require a driver installation.
+### Skill 1.3 Blog Prompt
+##### Create a list of hardware that a user might have that require a driver installation.
 	Some hardware that might require drivers are: mice, keyboards, cameras, USB thumb drives, microphones, printers, scanners, fax machines, network cards, graphics cards, and aftermarket PC fans that can be programmed. 
-#####Locate a device from your list (for example, printer or external storage) and install it on Windows 10 (VM in class, machine at home, maybe the host machine in class?)
+##### Locate a device from your list (for example, printer or external storage) and install it on Windows 10 (VM in class, machine at home, maybe the host machine in class?)
 	I had an old USB thumb drive in my backpack. 
-#####Locate the version of the driver and see if it is the most current version available (in the case of the printer, check the manufacturer website).
-######If necessary update the device.
+##### Locate the version of the driver and see if it is the most current version available (in the case of the printer, check the manufacturer website).
+###### If necessary update the device.
 	Windows provided a generic driver that worked to read it.
-#####Disable the device.  Does this affect Windows performance?  What happens when you disable other devices?  Try disabling your network card - how was that experience?
+##### Disable the device.  Does this affect Windows performance?  What happens when you disable other devices?  Try disabling your network card - how was that experience?
 	I disabled the device and the thumb drive disappeared from the file explorer. Once I disabled the network card I lost network connection. 
-#####Why would I disable updates over metered connections?  Capture a screenshot of the screen on which you disabled this feature.
+##### Why would I disable updates over metered connections?  Capture a screenshot of the screen on which you disabled this feature.
 	I would disable updates over a metered connection because updates can be very large and I may not have enough data to complete the upgrade or it would be too costly to download so much data. 
-#####Perform a "rollback" of a driver update.  Note, you will need to access a different USB device if you have been working with a printer.
+##### Perform a "rollback" of a driver update.  Note, you will need to access a different USB device if you have been working with a printer.
 
-#####After installing a USB microphone, a system has extremely poor performance.  How would you check to see if the performance issues are related to the USB microphone?
+##### After installing a USB microphone, a system has extremely poor performance.  How would you check to see if the performance issues are related to the USB microphone?
 	I would first check to see if performance improves by removing the device to confirm that the device is causing the issue. Then I would check drivers. If all else fails I will have to check the documentation to ensure that the device is compatible with Windows 10
 
 ### Warm Up September 24 2018
-#####What do you think is the future of operating systems?
+##### What do you think is the future of operating systems?
 	I think businesses looking to cut cost within their IT department may look at operating systems as a service as a viable option and some may even move to it. But overall I do not believe the majority of businesses will make the switch. Many corporations use custom made software within their infrastructures built for certain versions of Windows. Software development for businesses running their own software is actually quite slow because the businesses often attempt to make as little changes as necessary. Windows XP is still ran on many legacy systems because it functions as intended. Microsoft will have a huge battle ahead of itself if it believes that operating systems as a service can be viable. 
 
-##Skill 1.4 Technical Blog Prompt
-####Using your textbook, ITPro.tv videos and notes, as well as Microsoft documentation, research one of the following post-installation activities, create a step-by-step guide, and test out your guide on your VM.
+## Skill 1.4 Technical Blog Prompt
+#### Using your textbook, ITPro.tv videos and notes, as well as Microsoft documentation, research one of the following post-installation activities, create a step-by-step guide, and test out your guide on your VM.
  
 â€¢Configure and customize the user interface per device type
 â€¢Configure accessibility options
