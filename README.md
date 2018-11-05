@@ -279,12 +279,13 @@ What would you do?
 
 Set up a Onedrive or SharePoint for the company. That way all users can share and collaborate easily. This setup does not require use to set up a server and requires little training for the users. If we were to set up a secure server and ran a VPN between the buildings it would require greater capital costs. 
 
-### Skill 2.3 Blog Prompt
+### Skill 2.4 Blog Prompt
 You work for a small business of 25 employees. Split between two offices that are in different buildings, but share a parking lot.
 You have been tasked with deploying Microsoft Office to all machines, Adobe CS Suite to the Accounting team, and QuickBooks to the Accounting Team. You also want to allow users to selectively install Adobe Acrobat.
 
 What would you do?
 
+### Skill 2.4 Answser
 Use MDT to create separate deployments when installing window. This way we can control what applications come pre-installed for each type of employee, if the department expands it will be easier to get the new user set up. Another way we could push applications to the employees is to use Group Policy. We can separate the different departments into different groups and push applications to them 
 
 
