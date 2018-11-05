@@ -264,6 +264,48 @@ Serial Attached SCSI (SAS): 1 TB
 Scenario 1: You can set up a RAID system for your hard drives, but the larger drive will now be restricted to 500 GB. This is not ideal, but do have 4 drives available so you will have 2 TB available once RAID is set up. 
 Scenario 2: You should still be able to set up a 2TB Storage Space. Even though the two drives are different, They are the same size, you should have no size standardization. 
 
+### Skill 2.3 Answers
+Lab9
+Question 1.
+3 printers are installed on this computer.
+Q2. 
+4 printers are now installed on this computer.
+Q3. 
+The printed file now has the extension of “.pm”
+Q3.1 
+The printed file now has a header that says this is a printed file at the top and a page number at the bottom
+Q4. 
+The Microsoft Print to PDF printer comes the default printer when the virtual printer is uninstalled.
+
+Lab10
+Q1.
+There are 3 devices and 3 printers on this machine.
+Q2.
+There are now 4 printing devices on this computer.
+Q3.
+There is now an icon that shows that the printer is shared in the description at the bottom of the page.
+Q4.
+There are 3 printing devices on the PC1 computer.
+Q5. 
+There are now 4 printers on the PC1 computer
+Q6.
+The window that opens is called “Save Output as”
+Q7.
+The file appeared on the PC2 desktop because that was where the “printer” is.
+
+Lab12
+Q1. 
+A standard user account was created in the account page. A person would sometimes want to change the user to an administrator account to allow more control over the computer. Administrators can have control and access to all files on a computer and make critical changes.
+Q2.
+The created shared directory called “SharedData” is shared with the student account.
+Q3.
+The three accounts that the directory can be shared with are student, TEST, and everyone.
+Q4.
+The two accounts the directory are now shared with are student and TEST.
+Q5.
+An access denied window appears when we try to alter the shared document because we only have read privledges.  
+
+
 ### Warm Up October 29 2018
 Browse the Windows Store for an App that you find interesting. What app did you find that surpirsed you? Is there an essential app to your life missing that from the store? What is it and where can one find it?
 
