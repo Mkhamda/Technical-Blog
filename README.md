@@ -269,3 +269,21 @@ Browse the Windows Store for an App that you find interesting. What app did you 
 
 The app that I found interesting is one called Cyberduck, it cost $23.99. The application is a Browser or GUI that helps with FTP, SFTP, WebDAV, S3, BackBlaze B2, and OpenStack Swift. It is essentially a GUI application that makes file transfers from the cloud to personal computers easier. I guess this would be helpful for people who already have files stored on the cloud. The application seemed weird to me because people who use Cloud Services or have FTP servers facing the web would already know how to use the commmand line. 
 
+### File Sharing Activity
+https://docs.google.com/presentation/d/1RurCYpIdaC7PLGcsi8ahw1N9ezsBEGQkmXFf8KLccKs/edit?usp=sharing
+
+### Night of Case Studies
+You work for a small business of 25 employees, split between two offices that are in different buildings but share a parking lot. 
+You have been tasked with designing a file sharing solution that is fast, reliable, easy to use, and secure( yep, the Holy Grail).
+What would you do?
+
+Set up a Onedrive or SharePoint for the company. That way all users can share and collaborate easily. This setup does not require use to set up a server and requires little training for the users. If we were to set up a secure server and ran a VPN between the buildings it would require greater capital costs. 
+
+### Skill 2.3 Blog Prompt
+You work for a small business of 25 employees. Split between two offices that are in different buildings, but share a parking lot.
+You have been tasked with deploying Microsoft Office to all machines, Adobe CS Suite to the Accounting team, and QuickBooks to the Accounting Team. You also want to allow users to selectively install Adobe Acrobat.
+
+What would you do?
+Use MDT to create separate deployments when installing window. This way we can control what applications come pre-installed for each type of employee, if the department expands it will be easier to get the new user set up. Another way we could push applications to the employees is to use Group Policy. We can separate the different departments into different groups and push applications to them 
+
+
