@@ -284,6 +284,7 @@ You work for a small business of 25 employees. Split between two offices that ar
 You have been tasked with deploying Microsoft Office to all machines, Adobe CS Suite to the Accounting team, and QuickBooks to the Accounting Team. You also want to allow users to selectively install Adobe Acrobat.
 
 What would you do?
+
 Use MDT to create separate deployments when installing window. This way we can control what applications come pre-installed for each type of employee, if the department expands it will be easier to get the new user set up. Another way we could push applications to the employees is to use Group Policy. We can separate the different departments into different groups and push applications to them 
 
 
