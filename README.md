@@ -331,3 +331,21 @@ What would you do?
 Use MDT to create separate deployments when installing window. This way we can control what applications come pre-installed for each type of employee, if the department expands it will be easier to get the new user set up. Another way we could push applications to the employees is to use Group Policy. We can separate the different departments into different groups and push applications to them 
 
 
+### Lab7 Remote Desktop Answers
+1. The remote computer does not have remote desktop turned on currently
+2. At the center top of the screen there is a blue bar that indicates which IP I am currently connected to remotely. 
+3. The only power option available is the ability to disconnect.
+4. It was necessary to log into the machine again because while remote desktop was in use, the computer was unavailable.
+5. The file created by PC2 is located on the desktop.
+6. Some benefits of using remote desktop are: The ability to troubleshoot for someone while not physically present, and the ability to access your computer when you are away from home. There is also the ability for the network administrator to administer and check on every machine remotely to confirm things are as they should be or that the computer is functioning properly.
+
+### Skill 2.5 Technical Prompt
+1. Joe is a new IT Director who is tasked with making sure his Windows 10 computer users can be assisted remotely. On his first day at the company, Joe was told that the Remote Assistance feature was not working for users after a new firewall was installed. What could be causing the problem and how should it be addressed?
+
+A. The firewall most likely disabled all remote connections. This is because normal users do not need the ability or have all the skills to safely deploy remote connections. Joe can change the firewall settings to allow secure remote connections, or to only allow certain people to use remote connections. 
+
+2. You are an administrator at the Contoso Corporation. You have a 12-person help desk that supports about 10,000 users spread out over a 5-building campus. You don’t have enough people to provide support staff visits to a user who is having problems. Describe the actions you can take to support your company users.
+
+A. We can have the user enable remote connections, ask him what his issue is, and through remote desktop we could either fix the problem or let him know how to fix it. If the problem persists we can th
+
+
