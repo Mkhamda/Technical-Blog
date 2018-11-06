@@ -21,15 +21,15 @@ What version of Windows 10 would you install?  Why?
 
 ## Skill 1.1 - Prepare for Installation Requirements
 
-####Warm up - How many computers are in V-129? I believe there are about 75 computers in V-129 at the moment.
+#### Warm up - How many computers are in V-129? I believe there are about 75 computers in V-129 at the moment.
 There are 32 desktop computers in the room, but there are also personal laptops in the room. Also it is almost a
 certainty that everyone has a smart phone in their pocket, which can be considered a personal computer.
 
-####Not in class
+#### Not in class
 Determine requirements for particular features such as Hyper V, Cortana, Miracast.
 Configure upgrade readiness. distributed through Azure platform. Cloud readiness.
 
-####In class
+#### In class
 Determine hardware requirements and compatibility;
 choose between an upgrade and a clean installation;
 determine appropriate editions according to device type;
@@ -65,15 +65,15 @@ Misses- incomplete answers, Didn't Address Prompt, Spelling and punctuation.
 ** Markdown 10 - available on the the Windows Store, has live preview of what you're typing as a web page. 
 ** Atom.io is another text editor that allows packages to be installed. 
 
-####Snipping Tool
+#### Snipping Tool
 
-#Install Windows 10!
+# Install Windows 10!
 We will perform a clean install of Windows 10 Education.
 Download disk image from class files
 Using VMWare Workstation Player 14
 Installing from ISO file
  
-####Settings
+#### Settings
 + 100GB of Storage on single disk
 + 4GB of RAM
 + 4 Cores
@@ -87,67 +87,68 @@ Installing from ISO file
 5. Input Software Key 8PHVN-VYCHH-QKM76-CQM93-C37Y9
 6. Accept Agreements and continue
 
-##Skill 1.2 
-#####In what ways is the Media Creation Tool similar to the DIY USB installation?  In what ways is it different?
+## Skill 1.2 
+##### In what ways is the Media Creation Tool similar to the DIY USB installation?  In what ways is it different?
 	It is similar in that it will create a bootable ISO file on the USB drive, but different in that it is mostly automated. If you plan on customizing the installation you will have to do the DIY media creation in order to insert the correct scripts into the installation files. 
-#####Why would a user be interested in multiple partitions on a hard drive?  Use a Windows tool (GUI or CLI) to create a partition and describe the steps that you took to create multiple partitions.
+##### Why would a user be interested in multiple partitions on a hard drive?  Use a Windows tool (GUI or CLI) to create a partition and describe the steps that you took to create multiple partitions.
 	A user sometimes runs multiple operating systems from a single disk. In order to do this they will have to keep separate partitions on that disk with each operating system. They could also keep certain files on another disk altogether.
-#####The GUI tool to partition the drive is diskmgmt.msc, The CLI tool to partition is called diskpart. 
-#####Describe each step that requires "user attention" during the clean installation of Windows 10.
+##### The GUI tool to partition the drive is diskmgmt.msc, The CLI tool to partition is called diskpart. 
+##### Describe each step that requires "user attention" during the clean installation of Windows 10.
 	There are very little parts of the Windows installation that require user attention anymore. The first is language and region, next is entering the software key. Finally after accepting all the documents there is another window about information collection and privacy. There you can choose what information is shared with microsoft and how they can use it. 
 What is one Windows Feature that you chose to add after installation?  How did you add that feature?
     One feature that I added was Hyper-V, This was added through the OptionalWindowsFeatures.exe
 
 ### Warm-Up activity 9/17/2018
-####What is â€œPatch Tuesdayâ€? When did it last occur? What was included in the most recent?
+#### What is "Patch Tuesday"? When did it last occur? What was included in the most recent?
 
     Patch Tuesday is the day that Microsoft releases updates on a regular monthly schedule. It normally occurs on the second Tuesday of every month and sometimes on the fourth Tuesday if something went horribly wrong with the previous patch(it does, fairly often). The last one occured on September 11, 2018. It covered 61 vulnerabilities 17 of which were deemed critical. Most of the updates included patches to remote code execution in Microsoft's core programs such as Internet Explorer, Microsoft Edge, Microsoft Office, and .NET Framework. The most critical code that was patched was a zero-day vulnerability that allowed people to run a program that would grant administrator privileges to whomever ran it.   A lot of Administrators will hold off on updates for a week or two because Microsoft is notorious for breaking some things when releasing their patches. 
 
 ### Skill 1.2 Blog continued 9/17/2018
-#####On Windows 8.1, install an application that may not be Windows 10 compatible.  Why do you think this application may not be compatible?
+##### On Windows 8.1, install an application that may not be Windows 10 compatible.  Why do you think this application may not be compatible?
 	I installed a copy of Winrar which is a file zipping software and VLC media player. These two programs should still be compatible because they are 64-bit programs. In theory Windows does allow for older programs to run on new machines even if they will not run properly.
-#####Create a very special text file that you would like to be included in the upgrade.  What is in the file?  Where is it located?
+##### Create a very special text file that you would like to be included in the upgrade.  What is in the file?  Where is it located?
 	The text file I created was just a simple hello world rich text file and I left it on the desktop to easily see if it will survive the upgrade process. 
-#####Describe each step that requires "user attention" during the in-place upgrade of Windows 10.
+##### Describe each step that requires "user attention" during the in-place upgrade of Windows 10.
 	Some of the things that required user input during the in-place upgrade were choosing what to keep and what to delete, reviewing the end-user agreements again, and ensuring that you have administrator privileges. 
-#####In what ways was the upgrade process similar to  the clean install process?  How did it differ?
+##### In what ways was the upgrade process similar to  the clean install process?  How did it differ?
 	This upgrade process was actually slower than a clean install because the upgrade process took the time to scan the machine and check all the programs and files already installed and ensure that the upgrade could take place. 
-#####Are there any additional folders that remain after the upgrade process is complete?  What are the contents of those folders?
+##### Are there any additional folders that remain after the upgrade process is complete?  What are the contents of those folders?
 	All the original files remained after the in place upgrade. Another folder that showed up was one called Windows.old. This folder is actually the previous version of the OS in case we want to downgrade back. If we want to keep WIndows 10 we can delete the folder to free up space. 
 
-###Skill 1.3 Blog Prompt
-#####Create a list of hardware that a user might have that require a driver installation.
+### Skill 1.3 Blog Prompt
+##### Create a list of hardware that a user might have that require a driver installation.
 	Some hardware that might require drivers are: mice, keyboards, cameras, USB thumb drives, microphones, printers, scanners, fax machines, network cards, graphics cards, and aftermarket PC fans that can be programmed. 
-#####Locate a device from your list (for example, printer or external storage) and install it on Windows 10 (VM in class, machine at home, maybe the host machine in class?)
+##### Locate a device from your list (for example, printer or external storage) and install it on Windows 10 (VM in class, machine at home, maybe the host machine in class?)
 	I had an old USB thumb drive in my backpack. 
-#####Locate the version of the driver and see if it is the most current version available (in the case of the printer, check the manufacturer website).
-######If necessary update the device.
+##### Locate the version of the driver and see if it is the most current version available (in the case of the printer, check the manufacturer website).
+###### If necessary update the device.
 	Windows provided a generic driver that worked to read it.
-#####Disable the device.  Does this affect Windows performance?  What happens when you disable other devices?  Try disabling your network card - how was that experience?
+##### Disable the device.  Does this affect Windows performance?  What happens when you disable other devices?  Try disabling your network card - how was that experience?
 	I disabled the device and the thumb drive disappeared from the file explorer. Once I disabled the network card I lost network connection. 
-#####Why would I disable updates over metered connections?  Capture a screenshot of the screen on which you disabled this feature.
+##### Why would I disable updates over metered connections?  Capture a screenshot of the screen on which you disabled this feature.
 	I would disable updates over a metered connection because updates can be very large and I may not have enough data to complete the upgrade or it would be too costly to download so much data. 
-#####Perform a "rollback" of a driver update.  Note, you will need to access a different USB device if you have been working with a printer.
+##### Perform a "rollback" of a driver update.  Note, you will need to access a different USB device if you have been working with a printer.
 
-#####After installing a USB microphone, a system has extremely poor performance.  How would you check to see if the performance issues are related to the USB microphone?
+##### After installing a USB microphone, a system has extremely poor performance.  How would you check to see if the performance issues are related to the USB microphone?
 	I would first check to see if performance improves by removing the device to confirm that the device is causing the issue. Then I would check drivers. If all else fails I will have to check the documentation to ensure that the device is compatible with Windows 10
 
 ### Warm Up September 24 2018
-#####What do you think is the future of operating systems?
+##### What do you think is the future of operating systems?
 	I think businesses looking to cut cost within their IT department may look at operating systems as a service as a viable option and some may even move to it. But overall I do not believe the majority of businesses will make the switch. Many corporations use custom made software within their infrastructures built for certain versions of Windows. Software development for businesses running their own software is actually quite slow because the businesses often attempt to make as little changes as necessary. Windows XP is still ran on many legacy systems because it functions as intended. Microsoft will have a huge battle ahead of itself if it believes that operating systems as a service can be viable. 
 
-##Skill 1.4 Technical Blog Prompt
-####Using your textbook, ITPro.tv videos and notes, as well as Microsoft documentation, research one of the following post-installation activities, create a step-by-step guide, and test out your guide on your VM.
+## Skill 1.4 Technical Blog Prompt
+#### Using your textbook, ITPro.tv videos and notes, as well as Microsoft documentation, research one of the following post-installation activities, create a step-by-step guide, and test out your guide on your VM.
  
-â€¢Configure and customize the user interface per device type
-â€¢Configure accessibility options
-â€¢Configure Cortana
-â€¢Configure Microsoft Edge
-â€¢Configure Microsoft Internet Explorer
-â€¢Configure Hyper-V
-â€¢Configure power settings
-##Skill 1.4 Answer
-#####How to disable Microsoft's Internet Explorer 11 Completely
+-Configure and customize the user interface per device type
+-Configure accessibility options
+-Configure Cortana
+-Configure Microsoft Edge
+-Configure Microsoft Internet Explorer
+-Configure Hyper-V
+-Configure power settings
+
+## Skill 1.4 Answer
+##### How to disable Microsoft's Internet Explorer 11 Completely
 1. Click Window button lower left panel
 2. Type in control panel
 3. Click on Programs and Features
@@ -157,7 +158,7 @@ What is one Windows Feature that you chose to add after installation?  How did y
 7. Confirm Choice 
 8. Click OK
 
-#####How to disable Microsoft Edge Browser
+##### How to disable Microsoft Edge Browser
 1. Open a Windows Explorer Window
 2. Navigate to Local Disk :C
 3. Navigate to Windows Folder 
@@ -166,35 +167,35 @@ What is one Windows Feature that you chose to add after installation?  How did y
 6. Rename the file by adding something to the end
 7. Edge will now be disabled
 
-#####How to uninstall Edge Browser
+##### How to uninstall Edge Browser
 1. Open powershell
 2. Type get-appxpackage *edge* press enter
 3. Type remove-appxpackage but do not press enter
 4. Copy the Package Full Name 
 5. Edge will now be uninstalled.
  
-###Warm-Up October 1, 2018
-####What is â€œUACâ€? Why is it important? When did Microsoft introduce UAC? Is UAC on your Sierra host machine different than your VM? If so, how?
+### Warm-Up October 1, 2018
+#### What is UAC? Why is it important? When did Microsoft introduce UAC? Is UAC on your Sierra host machine different than your VM? If so, how?
 
 		UAC is a security feature in Microsoft Windows. It stands for User Account Control. It is Microsoft's way of controlling user account privileges and restricting access to untrusted programs to administrators only. It was introduced with Windows Vista. The user account privileges are the same on both machines surprisingly. To view User Account Controls you can open the control panel, then click on user accounts and you can view the user account controls and changed them if need be. 
 		There is a feature when UAC is activated. The background will dim the background and stop all processes until a user clicks, if not the computer will not activate change. 
  
-##Skill 1.5 Enterprise implementations 
+## Skill 1.5 Enterprise implementations 
 LSDO- permissions
 + Default settings are always LOCAL
 + Site permissions can take precedence over local
 + Domain- many machines, with potentially many sites with specific permissions
 + Organizational Unit- a group of users, or devices
-#####This is implemented through Group Policy
+##### This is implemented through Group Policy
 Centralized control for User Settings, Computer Settings, Control and Deployment of Applications, Control User Experience
 Gpupdate /force or logoff
 
-##GPEdit Challenge
-######Block all Microsoft Accounts
+## GPEdit Challenge
+###### Block all Microsoft Accounts
 - Windows Settings, local policies, security options. It will be listed under Accounts: Block Microsoft accounts
-######Enforce a password length of 10 characters? 
+###### Enforce a password length of 10 characters? 
 - This can be found under Windows Settings,  Password policy, Minimum password length. 
-######Disable Secure desktop in UAC?( not recommended) 
+###### Disable Secure desktop in UAC?( not recommended) 
 -  Can be found in: Security Settings\Local Policies\Security Options. To turn it off disable â€œUser Account Control: Switch to secure desktop when prompting for elevationâ€
 
 ### Warm-Up October 8 2018
