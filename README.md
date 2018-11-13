@@ -347,6 +347,27 @@ A. The firewall most likely disabled all remote connections. This is because nor
 
 2. You are an administrator at the Contoso Corporation. You have a 12-person help desk that supports about 10,000 users spread out over a 5-building campus. You don’t have enough people to provide support staff visits to a user who is having problems. Describe the actions you can take to support your company users.
 
-A. We can have the user enable remote connections, ask him what his issue is, and through remote desktop we could either fix the problem or let him know how to fix it. If the problem persists we can th
+A. We can have the user enable remote connections, ask him what his issue is, and through remote desktop we could either fix the problem or let him know how to fix it. If the problem persists we can then escalate the problem and have a technician out to see the machine. 
+
+### Skill 3.1
+
+#### Lab13 Configuring Automatic Maintenance
+1. It is beneficial to leave the Allow Maintenance to wake up my computer at the scheduled time option check marked because this allows Windows to perform the maintenance at a specified time each day. This will let you schedule it so that you know you are away from your computer and will not need to use it while it is updating. 
+2. After Maintenance has completed “No Action Needed” shows up next to the maintenance tab
+3. If the Value Data of the DWORD(32 bit) in the registry was set to 0 the edit would have no effect because it is turned off. 
+
+#### Bonus Questions
+1. You are an IT manager and would like to use a virtual machine to keep up to date on the latest development in Windows 10 and access the preview builds.  How would you go about doing this?
+
+Once the Virtual Machine is set up, you can then create a separate account for the machine and sign that account up for the WIndows Insider Program. This program is set up for bleeding edge users and receives updates as they are created. 
+
+2. As an IT manager, one of the departments you support is Physical Plant Operations.  They use a specialized application to run power generators that does not need access to the Internet or require any operating software updates.  Which branch of Windows 10 will you recommend for use by the Physical Plant Operations department?  Why?
+
+I would recommend Windows 10 Pro for the plant. With Windows 10 Pro we will have the ability to turn off automatic updates in the off chance the computers are somehow exposed to the internet. This will make sure we have complete control over how these computers are updated.
+
+3. As an IT manager, you have developed a custom image of Windows 10 that is deployed to all general users.  You do not want the users to be able to install additional software, including applications found in the Windows Store.  How could you prevent users from installing apps from the Windows Store?
+
+There are a couple different ways you can do this. The first one is to use AppLocker. This is a built in security feature that windows includes because some organizations require that 3rd party applications be limited. AppLocker can also be used to create whitelists or blacklists of applications or publishers that are allowed to be installed by the user. Another way is to use group policy to perform the same tasks. Group Policy will be a bit more functional though because if you are using the Microsoft Store for Business, you can allow users to install applications that the business has already chosen for its users. You can also disable the Store entirely through Group Policy. 
+
 
 
