@@ -359,15 +359,15 @@ A. We can have the user enable remote connections, ask him what his issue is, an
 #### Bonus Questions
 1. You are an IT manager and would like to use a virtual machine to keep up to date on the latest development in Windows 10 and access the preview builds.  How would you go about doing this?
 
-Once the Virtual Machine is set up, you can then create a separate account for the machine and sign that account up for the WIndows Insider Program. This program is set up for bleeding edge users and receives updates as they are created. 
+		Once the Virtual Machine is set up, you can then create a separate account for the machine and sign that account up for the WIndows Insider Program. This program is set up for bleeding edge users and receives updates as they are created. 
 
 2. As an IT manager, one of the departments you support is Physical Plant Operations.  They use a specialized application to run power generators that does not need access to the Internet or require any operating software updates.  Which branch of Windows 10 will you recommend for use by the Physical Plant Operations department?  Why?
 
-I would recommend Windows 10 Pro for the plant. With Windows 10 Pro we will have the ability to turn off automatic updates in the off chance the computers are somehow exposed to the internet. This will make sure we have complete control over how these computers are updated.
+		I would recommend Windows 10 Pro for the plant. With Windows 10 Pro we will have the ability to turn off automatic updates in the off chance the computers are somehow exposed to the internet. This will make sure we have complete control over how these computers are updated.
 
 3. As an IT manager, you have developed a custom image of Windows 10 that is deployed to all general users.  You do not want the users to be able to install additional software, including applications found in the Windows Store.  How could you prevent users from installing apps from the Windows Store?
 
-There are a couple different ways you can do this. The first one is to use AppLocker. This is a built in security feature that windows includes because some organizations require that 3rd party applications be limited. AppLocker can also be used to create whitelists or blacklists of applications or publishers that are allowed to be installed by the user. Another way is to use group policy to perform the same tasks. Group Policy will be a bit more functional though because if you are using the Microsoft Store for Business, you can allow users to install applications that the business has already chosen for its users. You can also disable the Store entirely through Group Policy. 
+		There are a couple different ways you can do this. The first one is to use AppLocker. This is a built in security feature that windows includes because some organizations require that 3rd party applications be limited. AppLocker can also be used to create whitelists or blacklists of applications or publishers that are allowed to be installed by the user. Another way is to use group policy to perform the same tasks. Group Policy will be a bit more functional though because if you are using the Microsoft Store for Business, you can allow users to install applications that the business has already chosen for its users. You can also disable the Store entirely through Group Policy. 
 
 
 
